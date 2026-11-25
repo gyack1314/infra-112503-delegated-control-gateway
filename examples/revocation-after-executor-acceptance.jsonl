@@ -9,5 +9,5 @@
 {"at":7,"kind":"revoke","record":{"grant":"root"}}
 {"at":8,"kind":"outcome","record":{"receipt":"x","state":"unknown"}}
 {"at":9,"kind":"restart","record":{}}
-{"at":10,"kind":"outcome","record":{"receipt":"x","state":"applied","media":15}}
+{"at":10,"kind":"outcome","record":{"receipt":"x","state":"applied","media":15,"happened_at":6}}
 {"at":11,"kind":"inspect","record":{"command":"flip"}}

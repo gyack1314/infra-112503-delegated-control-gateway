@@ -13,7 +13,7 @@
 - **dispatch**　要求将指定 command/rev 交给当前执行端，由网关判断是否可派。
 - **accept**　导播执行端报告指定 rev 已接受，receipt 唯一。
 - **revoke**　主管撤回指定 grant。
-- **outcome**　执行端按 receipt 回报 applied、stopped 或 unknown。applied 含实际 media。
+- **outcome**　执行端按 receipt 回报 applied、stopped 或 unknown。applied 含实际 media。 applied 的 happened_at 为仿真实际生效秒点，可早于报告到达。
 - **restart**　仿真网关重启。
 - **inspect**　按 command 查询。
 
