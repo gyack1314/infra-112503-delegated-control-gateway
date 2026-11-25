@@ -1,0 +1,10 @@
+{"at":0,"kind":"grant","record":{"grant":"start","person":"guest","program":"show","branch":"A","actions":["air"],"span":[20,35],"until":20}}
+{"at":0,"kind":"grant","record":{"grant":"check","person":"reviewer","program":"show","branch":"A","actions":["air"],"span":[20,35],"until":20}}
+{"at":1,"kind":"submit","record":{"command":"f","rev":1,"grant":"start","person":"guest","program":"show","branch":"A","action":"air","span":[21,29],"params":{"look":"a"}}}
+{"at":2,"kind":"approve","record":{"command":"f","rev":1,"reviewer":"reviewer","review_grant":"check"}}
+{"at":3,"kind":"submit","record":{"command":"f","rev":2,"grant":"start","person":"guest","program":"show","branch":"A","action":"air","span":[21,29],"params":{"look":"b"}}}
+{"at":4,"kind":"position","record":{"program":"show","branch":"A","media":22}}
+{"at":5,"kind":"dispatch","record":{"command":"f","rev":2}}
+{"at":6,"kind":"approve","record":{"command":"f","rev":2,"reviewer":"reviewer","review_grant":"check"}}
+{"at":7,"kind":"dispatch","record":{"command":"f","rev":2}}
+{"at":8,"kind":"inspect","record":{"command":"f"}}

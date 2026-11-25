@@ -1,0 +1,13 @@
+{"at":0,"kind":"grant","record":{"grant":"root","person":"host","program":"show","branch":"A","actions":["air"],"span":[10,20],"until":15}}
+{"at":0,"kind":"grant","record":{"grant":"review","person":"reviewer","program":"show","branch":"A","actions":["air"],"span":[10,20],"until":15}}
+{"at":1,"kind":"grant","record":{"grant":"sub","person":"guest","parent":"root","program":"show","branch":"A","actions":["air"],"span":[11,18],"until":13}}
+{"at":2,"kind":"submit","record":{"command":"flip","rev":1,"grant":"sub","person":"guest","program":"show","branch":"A","action":"air","span":[13,17],"params":{"angle":"north"}}}
+{"at":3,"kind":"approve","record":{"command":"flip","rev":1,"reviewer":"reviewer","review_grant":"review"}}
+{"at":4,"kind":"position","record":{"program":"show","branch":"A","media":14}}
+{"at":5,"kind":"dispatch","record":{"command":"flip","rev":1}}
+{"at":6,"kind":"accept","record":{"command":"flip","rev":1,"receipt":"x"}}
+{"at":7,"kind":"revoke","record":{"grant":"root"}}
+{"at":8,"kind":"outcome","record":{"receipt":"x","state":"unknown"}}
+{"at":9,"kind":"restart","record":{}}
+{"at":10,"kind":"outcome","record":{"receipt":"x","state":"applied","media":15}}
+{"at":11,"kind":"inspect","record":{"command":"flip"}}
